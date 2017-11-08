@@ -1,5 +1,12 @@
-<card *ngFor="let article of articles">
+<button>
+  Trier
+</button>
+<div class="input">
+  <label for="search">Votre recherche</label>
+  <input type="text" [(ngModel)]="search">
+</div>
+<card *ngFor="let article of (articles | filter : search)">
   <div card-header>{{article.titre}} - {{article.date}}</div>
-  <div card-image>{{article.image}}</div>
+  <div class="card-image" card-image><img src="{{article.image}}" alt=""></div>
   <div card-description>{{article.description}}</div>
 </card>

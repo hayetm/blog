@@ -1,0 +1,14 @@
+img {
+  width: 70%;
+  height: 300px;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+}
+
+.input, button {
+  display: block;
+  margin: 20px 10px
+}

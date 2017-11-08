@@ -1,3 +1,5 @@
-<p>
-  articles works!
-</p>
+<card *ngFor="let article of articles">
+  <div card-header>{{article.titre}} - {{article.date}}</div>
+  <div card-image>{{article.image}}</div>
+  <div card-description>{{article.description}}</div>
+</card>

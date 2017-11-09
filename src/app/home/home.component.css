@@ -1,0 +1,64 @@
+.contain-banniere {
+  width: 100vw;
+  background: white;
+  height: 200px;
+  display: flex;
+  margin-left: -20px;
+}
+
+.banniere {
+  display: block;
+  height: 150px;
+  width: 900px;
+  margin: auto;
+  background-image: url(../../assets/banniere.png);
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 40px
+}
+
+img {
+  width: 70%;
+  height: 300px;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+}
+
+.hello {
+  width: 60vw;
+  margin: 50px;
+  border: 1px solid rgb(193, 166, 176);
+  border-radius: 10px;
+  padding: 15px;
+  display: inline-block;
+  background: white
+}
+
+.contact {
+  margin-left: 15px;
+  width: 20vw;
+  height: 200px;
+  border: 1px solid rgb(193, 166, 176);
+  border-radius: 10px;
+  display: inline-block;
+  position: relative;
+  bottom: 194px;
+  padding: 0 15px 15px 15px;
+  background: white
+}
+
+.contact img {
+  height: 120px;
+  width: 120px;
+  display: block
+}
+
+.accueil {
+  background: url(../../assets/back.png);
+  margin-left: -38px;
+  padding-left: 20px;
+  padding-top: 20px;
+}

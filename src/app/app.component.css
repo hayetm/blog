@@ -7,18 +7,25 @@ header {
   line-height: 50px
 }
 
-nav a {
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
   text-decoration: none;
-  margin-left: 20px;
+  padding: 20px 20px 0 20px;
   font-size: 3rem;
-  color: #540314
+  color: black;
+  height: 100%
 }
 
-nav a:hover {
+nav ul li a:hover {
   border-bottom: 2px solid #540314;
-  transition: 80ms
+  transition: 80ms;
+  background: rgba(193, 166, 176, 0.2)
 }
 
-nav a:focus {
+nav ul li a:focus {
   border-bottom: 2px solid #540314;
 }

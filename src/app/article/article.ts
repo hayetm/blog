@@ -1,6 +1,6 @@
 export interface Article {
   titre: string;
-  date: string;
+  date: Date;
   image: string;
-  description: string
+  description: string;
 }

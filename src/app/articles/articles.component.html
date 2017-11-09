@@ -5,7 +5,7 @@
   <label for="search">Votre recherche</label>
   <input type="text" [(ngModel)]="search">
 </div>
-<card *ngFor="let article of (articles | filter : search)">
+<card class="hello" *ngFor="let article of (articles | filter : search)">
   <div card-header>{{article.titre}} - {{article.date}}</div>
   <div class="card-image" card-image><img src="{{article.image}}" alt=""></div>
   <div card-description>{{article.description}}</div>

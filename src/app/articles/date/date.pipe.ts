@@ -6,9 +6,9 @@ import { Article } from '../../article/article';
 })
 export class DatePipe implements PipeTransform {
 
-  transform(value: any, args?: any): any {
+  transform(articles: any, args?: any): any {
 
-      return value.sort((a: any, b: any) => {
+      return articles.sort((a: any, b: any) => {
                let date1 = new Date(a.date);
                let date2 = new Date(b.date);
 
